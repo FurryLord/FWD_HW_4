@@ -1,0 +1,54 @@
+
+
+header {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.box {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #7f55db;
+    border-radius: 15px;
+    word-break: break-word;
+    max-height: 700px;
+    overflow: auto;
+    text-align: center;
+}
+
+
+
+
+#fact {
+    margin: 5% 10% 5% 10%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 15px;
+    border-style: dashed;
+    visibility: hidden;
+}
+
+#name {
+    color: black;
+    padding: 3% 2% 3% 2%;
+    height: 1rem;
+    width: 50%;
+}
+
+
+#submitButton {
+    width: 20%;
+    color: black;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.buttons {
+    color: black;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}

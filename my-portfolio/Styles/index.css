@@ -1,0 +1,95 @@
+/* Сhanging some heading styles */
+.textbox2 h2 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+/* Containers for main content */
+.textbox1 {
+    background-color: #7f55db;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 15px;
+    word-break: break-word;
+    max-height: 300px;
+    overflow: auto;
+    margin-block-start: 0em;
+    padding: 5% 5% 5% 5%;
+}
+
+.contactbox {
+    background-color: #7f55db;
+    padding: 0.5% 5% 1% 5%;
+    border-radius: 15px;
+    width: 30%;
+    word-break: break-word;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.textbox2 {
+    background-color: #7f55db;
+    padding: 1% 5% 1% 5%;
+    border-radius: 15px;
+    width: 60%;
+    word-break: break-word;
+    max-height: 300px;
+    overflow: auto;
+}
+
+
+.content {
+    margin-left: 4%;
+}
+
+/* Some decorators for text */
+
+#underlined {
+    text-decoration: underline;
+}
+
+.wave_underlined {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: aliceblue;
+}
+
+
+/* Styles for pictures included in list
+   They are clicable too
+*/
+
+li img {
+    width: 16px;
+    height: 16px;
+    display: inline;
+}
+
+
+/* Animation for image (scales it inside container block) */
+
+img:hover {
+    transform: scale(1.2);
+}
+
+ul img:hover {
+    transform: scale(1.4);
+    transition: 0.3s;
+}
+
+.image_container {
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Container for text at top-left angle of image */
+.top-left_image {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: hsla(21, 37%, 15%, 0.2);
+    padding-left: 2%;
+    padding-right: 2%;
+}
